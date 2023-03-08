@@ -1,0 +1,371 @@
+:root {
+  --background-color: #edecec;
+  --it-color: #959595; /* icon and text color*/
+  --shadow-dark: #c9c9c9;
+  --shadow-light: #ffffff;
+  --prime-color: #5a5a5a;
+  --second-color: #7c746c;
+}
+
+.body {
+  background-color: var(--background-color);
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.points {
+  color: var(--prime-color);
+}
+
+.hero-section {
+  background-color: var(--background-color);
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+}
+
+.portfolio {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile {
+  /* margin: 14vh auto; */
+}
+
+.content {
+  /* margin: 14vh auto; */
+}
+
+.profile-card {
+  margin: 24px auto;
+  min-height: 72vh;
+  width: 268px;
+  /* neuomorphic css goes here */
+  background-color: var(--background-color);
+  border-radius: 30px;
+  box-shadow:
+    10px 10px 14px var(--shadow-dark),
+    -10px -10px 16px var(--shadow-light);
+}
+
+.profile-img-wrapper {
+  margin: 30px auto;
+  padding: 15px;
+  height: 230px;
+  width: 230px;
+  display: flex;
+  border-radius: 50%;
+  box-shadow:
+    2px 2px 2px var(--shadow-dark) inset,
+    -2px -2px 2px var(--shadow-light) inset;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url('assets/avatar.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.profile-img > img {
+  height: inherit;
+  width: inherit;
+}
+
+.profile-details {
+  margin: 20px 15px 26px 15px;
+}
+
+.profile-details  > .row {
+  margin-top: 24px;
+}
+
+.profile-image {
+  text-align: left;
+}
+
+.profile-text {
+  text-align: left;
+  font-size: 13px;
+  color: var(--it-color);
+  font-weight: bold !important;
+}
+
+.profile-text > a {
+  color: var(--it-color);
+}
+
+
+.icon {
+  color: var(--it-color);
+}
+
+.profile-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+
+.header {
+  min-height: 162px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.user-role {
+  margin-top: 14px;
+  font-size: 20px;
+  color: var(--prime-color);
+}
+
+.btn-card {
+  height: 52px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+
+    /* neuomorphic css goes here */
+    background-color: var(--background-color);
+    border-radius: 16px;
+    box-shadow:
+      6px 6px 8px var(--shadow-dark),
+      -6px -6px 8px var(--shadow-light);
+}
+
+.btn-card:hover {
+  cursor: pointer;
+
+  /* active neuomorphic css */
+  box-shadow:
+    2px 2px 2px var(--shadow-dark),
+    -2px -2px 2px var(--shadow-light);
+}
+
+.username {
+  color: var(--prime-color);
+  font-size: 34px;
+  font-weight: bold !important;
+}
+
+.skill-progress {
+  background-color:#737373;
+  border-radius: 2px;
+  height: 5px;
+  width: 70%;
+}
+
+.user-details {
+  margin-top: 20px;
+}
+
+.user-intro {
+  color: var(--second-color);
+  font-size: 16px;
+  font-weight: bold !important;
+  min-height: 110px;
+  padding-right: 8px;
+}
+
+.user-about {
+  color: var(--second-color);
+  font-size: 16px;
+  min-height: 110px;
+  padding-right: 8px;
+}
+
+
+.section-heading {
+  color: var(--second-color);
+  font-size: 24px;
+  font-weight: bold !important;
+  margin: 10px auto;
+}
+
+.list-card {
+  margin-left: 10px;
+  margin-top: 16px;
+  min-height: 50px;
+  min-width: 190px;
+  font-size: 18px;
+  font-weight: bold !important;
+  color: var(--it-color);
+  border: none;
+
+    /* neuomorphic css goes here */
+    background-color: var(--background-color);
+    border-radius: 18px;
+    box-shadow:
+      10px 10px 10px var(--shadow-dark),
+      -8px -8px 10px var(--shadow-light);
+}
+
+.list-card:hover {
+  cursor: pointer;
+
+  /* active neuomorphic css */
+  box-shadow:
+    2px 2px 4px var(--shadow-dark),
+    -2px -2px 4px var(--shadow-light);
+}
+
+.list-card-active, .list-card-active:hover  {
+  color: var(--prime-color) !important;
+
+  /* active neuomorphic css */
+  box-shadow:
+    6px 6px 6px var(--shadow-dark) inset,
+    -6px -6px 6px var(--shadow-light) inset;
+}
+
+.list-card > span {
+  text-align: left;
+}
+
+.date-span {
+  font-size: 18px;
+  color: var(--prime-color) !important;
+}
+
+.date-span-small {
+  font-size: 16px;
+  color: var(--prime-color) !important;
+}
+
+.title {
+  font-size: 22px;
+  color: var(--prime-color) !important;
+  font-weight: bold;
+}
+
+.option-heading {
+  font-size: 18px;
+  font-weight: bold !important;
+  color: var(--prime-color) !important;
+}
+
+.option-location {
+  font-size: 14px;
+  color: var(--second-color);
+  font-weight: normal;
+}
+
+.option-details {
+  margin-left: 16px;
+  font-size: 16px;
+  color: var(--second-color);
+}
+
+.score {
+  font-size: 16px;
+  color: var(--second-color);
+}
+
+.skillset {
+  min-height: 105px;
+}
+
+.skill {
+  margin: 20px auto;
+}
+
+.skill-heading {
+  font-size: 16px;
+  color: var(--prime-color) !important;
+}
+
+
+
+
+/* helper css goes here */
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.vt-center {
+  display: flex;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.soft {
+  padding: 15px !important;
+}
+
+.soft-half {
+  padding: 10px !important;
+}
+
+.soft-ends {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.soft-sides {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+
+.push {
+  margin: 15px !important;
+}
+
+.push-half--left {
+  margin-left: 8px;
+}
+
+.push-half--sides {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.push--sides {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.push--ends {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.hard {
+  padding: 0px !important;
+}
+.hard--sides {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.flush {
+  margin: 0px!important;
+}
+
+
+
+
+
+
+
